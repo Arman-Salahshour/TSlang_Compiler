@@ -1,0 +1,25 @@
+ num find(list A, num x)
+ {
+ num i;
+ num n;
+ i = 0;
+ for (n in A) {
+ if (n == x)
+ return i;
+ i = i + 1;
+ }
+ return -1;
+ }
+
+ num main()
+ {
+ list A;
+ num a;
+ A = makeList(3);
+ a = 5;
+ A[2] = a+2;
+ A[1] = 6;
+ a = find(A, 5);
+ numprint(find(A, 5));
+ return 0;
+ }

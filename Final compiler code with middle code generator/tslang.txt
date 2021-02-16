@@ -1,0 +1,16 @@
+
+
+
+num    : example(listA){
+        return(listlen(A)+1) ^ ;
+}
+
+
+
+num2(num1,num2){
+    for(){
+        if(){
+
+        }
+    }
+}
